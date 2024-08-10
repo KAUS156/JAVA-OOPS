@@ -1,6 +1,7 @@
 package ARRAY;
 
 //test
+//not required
 public class Find {
     void Find(){
         int  number[]={1,4,6,8,4};
