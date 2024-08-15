@@ -10,7 +10,7 @@ public static void main(String[] args) {
 
     for(int i=0;i<ags.length;i++){
         for(int j=0;j<ags[i].length;j++){
-            System.out.print(ags[i][j]);
+            System.out.print(ags[i][j] + " ");
         }
 
     }

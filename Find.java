@@ -4,12 +4,16 @@ package ARRAY;
 //not required
 public class Find {
     void Find(){
-        int  number[]={1,4,6,8,4};
+        int  number[]={1,4,6,8,9};
         int x=10;
         int s=0;
         for(int i=0;i<number.length;i++){
-            if(number[i]+number[number.length-1]==x){
-s=number[i];
+            for(int j=i+1;j<number.length;j++){
+                if(number[i]+number[j]==x){
+                    s++;
+            }
+
+
             }
 
         }
